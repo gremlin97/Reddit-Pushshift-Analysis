@@ -98,23 +98,23 @@ This repository contains Python functions designed to work with PostgreSQL datab
 
 ## Functions Provided
 
-### 1. `get_open_connection()`
+#### 1. `get_open_connection()`
 
 Connects to the PostgreSQL database specified by global variables `username`, `password`, `dbname`, and `host`, and returns the connection object.
 
-### 2. `load_data(table_name, csv_path, connection, header_file)`
+#### 2. `load_data(table_name, csv_path, connection, header_file)`
 
 Creates a table with specified name (`table_name`) and loads data from a CSV file (`csv_path`). The table structure is defined using a JSON file (`header_file`) containing column headers and types.
 
-### 3. `range_partition(data_table_name, partition_table_name, num_partitions, header_file, column_to_partition, connection)`
+#### 3. `range_partition(data_table_name, partition_table_name, num_partitions, header_file, column_to_partition, connection)`
 
 Partitions data from `data_table_name` into `partition_table_name` using range partitioning based on `column_to_partition`. It creates `num_partitions` partitions, defining boundaries automatically based on the data range.
 
-### 4. `round_robin_partition(data_table_name, partition_table_name, num_partitions, header_file, connection)`
+#### 4. `round_robin_partition(data_table_name, partition_table_name, num_partitions, header_file, connection)`
 
 Partitions data from `data_table_name` into `partition_table_name` using round-robin partitioning. It evenly distributes rows across `num_partitions` tables.
 
-### 5. `delete_partitions(table_name, num_partitions, connection)`
+#### 5. `delete_partitions(table_name, num_partitions, connection)`
 
 This function is intended for testing purposes. It aims to delete all partitions created by the user for a given `table_name` and `num_partitions`.
 
