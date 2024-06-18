@@ -203,5 +203,13 @@ Subreddits focusing on female-oriented topics like r/SapphoAndHerFriend and r/mu
 ## Lowest Average Comment Scores
 Subreddits with mundane or niche topics generally have the lowest average comment scores. NSFW subreddits also feature prominently in this category.
 
-## Most Controversial Subreddits
-Controversy is prevalent in subreddits discussing sensitive topics like politics, gaming (e.g., r/civclassics), and meta-discussions (e.g., r/announcements).
+### More Insights
+
+- **Most Active Subreddits:** The most active subreddits, such as r/T_D and r/PewdiepieSubmissions, are also highly popular and frequently appear on Reddit's front page.
+  
+- **Maximizing Karma:** Subreddits focused on female-oriented topics like r/SapphoAndHerFriend and r/muacirclejerk tend to offer higher karma potential due to supportive communities.
+  
+- **Lowest Average Comment Scores:** Subreddits with mundane topics or niche interests typically have the lowest average comment scores, with some NSFW subreddits also falling into this category.
+  
+- **Most Controversial Subreddits:** Controversy is prevalent in subreddits discussing sensitive topics like politics, gaming (e.g., r/civclassics), and meta-discussions (e.g., r/announcements).
+
